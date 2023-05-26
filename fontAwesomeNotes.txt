@@ -1,0 +1,27 @@
+05-23-23
+
+Notes on how to use fontawesome
+
+fontawesome.com
+
+https://fontawesome.com/docs/web/add-icons/how-to
+
+<!-- all styles of icons (in Font Awesome Classic by default) -->
+<i class="fa-solid fa-user"></i>
+<i class="fa-regular fa-user"></i>
+<i class="fa-light fa-user"></i>
+<i class="fa-thin fa-user"></i>
+<i class="fa-duotone fa-user"></i>
+
+<!-- a Brands icon -->
+<i class="fa-brands fa-font-awesome"></i>
+
+<!-- a specifically set Font Awesome Sharp Solid icon -->
+<i class="fa-sharp fa-solid fa-user"></i>
+
+<!-- a specifically set Font Awesome Sharp Regular icon -->
+<i class="fa-sharp fa-regular fa-user"></i>
+
+**Stay on target with those CSS rules!
+
+When using our SVG framework, remember that DOM elements with Font Awesome classes are replaced with injected <svg> elements by default. Be sure that your CSS rules target the right element.
